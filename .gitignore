@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (large files that shouldn't be in Git)
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Kaggle files
+/kaggle/
+/kaggle/working/
+*.kaggle
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Model checkpoints (large)
+*.pt
+*.pth
+*.pkl
+
+# Results and figures (optional - can commit small figures)
+# results/
+
+# Environment variables
+.env
+.env.local
